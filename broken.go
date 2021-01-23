@@ -1,9 +1,6 @@
 package pkg
 
-import "fmt"
-
 func fn() {
-	_ = fmt.Sprintf("%d", "")
+	var x int
+	_ = 5 == x
 }
-
-//x
