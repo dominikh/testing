@@ -9,7 +9,7 @@ jobs:
     - uses: actions/setup-go@v1
       with:
         go-version: "1.14.x"
-    - run: "GO111MODULE=on go get honnef.co/go/tools/cmd/staticcheck@sarif"
+    - run: "GO111MODULE=on go get honnef.co/go/tools/cmd/staticcheck@0cd07f9"
     - uses: actions/checkout@v1
       with:
         fetch-depth: 1
