@@ -1,0 +1,7 @@
+on: [push]
+jobs:
+  foo:
+    name: some job
+    steps:
+      - name: Run Staticcheck
+        uses: dominikh/staticcheck-action
