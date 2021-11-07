@@ -2,6 +2,7 @@ on: [push]
 jobs:
   foo:
     name: some job
+    runs-on: ubuntu-latest
     steps:
       - name: Run Staticcheck
         uses: dominikh/staticcheck-action
