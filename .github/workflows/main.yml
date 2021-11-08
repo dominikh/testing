@@ -15,8 +15,8 @@ jobs:
           fetch-depth: 1
       - uses: WillAbides/setup-go-faster@v1.5.0
         with:
-          go-version: "1.16.x"
+          go-version: "1.13.x"
       - name: Run Staticcheck
         uses: dominikh/staticcheck-action@master
         with:
-          installGo: false
+          install-go: false
