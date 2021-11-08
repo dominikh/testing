@@ -18,7 +18,7 @@ jobs:
           go-version: "1.16.x"
           ignore-local: true
       - id: foo
-        run: "cat $GITHUB_PATH"
+        run: "echo $GITHUB_PATH; cat $GITHUB_PATH"
         shell: bash
       # - run: "go version"
       # - name: Run Staticcheck
