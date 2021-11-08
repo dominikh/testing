@@ -19,4 +19,4 @@ jobs:
       - name: Run Staticcheck
         uses: dominikh/staticcheck-action@master
         with:
-          install-go: false
+          install-go: true
