@@ -1,3 +1,7 @@
 package pkg
 
-func Fn() {}
+import "regexp"
+
+func fn() {
+	regexp.MustCompile("+")
+}
