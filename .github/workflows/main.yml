@@ -1,8 +1,14 @@
-on: [push]
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
 jobs:
   foo:
     name: some job
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
       - name: Run Staticcheck
         uses: dominikh/staticcheck-action@master
