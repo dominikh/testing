@@ -3,5 +3,5 @@ package pkg
 import "regexp"
 
 func Fn() {
-	regexp.MustCompile("+")
+	regexp.MustCompile("++")
 }
