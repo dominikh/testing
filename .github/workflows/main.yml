@@ -16,6 +16,6 @@ jobs:
       - name: Run Staticcheck
         uses: dominikh/staticcheck-action@sarif
         with:
-          version: sarif
+          version: 1370fcd
           install-go: true
           use-sarif: true
