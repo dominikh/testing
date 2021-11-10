@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v1
         with:
           fetch-depth: 1
-      - run: "ls -la /c/Users/runneradmin/AppData/Local/go-build"
-        shell: "bash"
       - name: Run Staticcheck
         uses: dominikh/staticcheck-action@wip
+      - run: "echo $(go env GOCACHE); ls -a $(go env GOCACHE)"
+        shell: "bash"
