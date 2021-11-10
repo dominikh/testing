@@ -17,3 +17,4 @@ jobs:
         uses: dominikh/staticcheck-action@wip
         with:
           install-go: true
+          cache-key: "foo1"
