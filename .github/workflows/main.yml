@@ -15,5 +15,3 @@ jobs:
           fetch-depth: 1
       - name: Run Staticcheck
         uses: dominikh/staticcheck-action@wip
-      - run: "echo $(go env GOCACHE); ls -a $(go env GOCACHE)"
-        shell: "bash"
