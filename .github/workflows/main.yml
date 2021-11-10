@@ -14,7 +14,7 @@ jobs:
         with:
           fetch-depth: 1
       - name: Run Staticcheck
-        uses: dominikh/staticcheck-action@wip
+        uses: dominikh/staticcheck-action@sarif
         with:
           install-go: true
-          cache-key: "foo1"
+          use-sarif: true
