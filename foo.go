@@ -1,21 +1,9 @@
 package pkg
 
 import "fmt"
-import . "io"
-
-var _ Reader = nil
 
 func Fn() {
-	s := ""
+	var s string
+	//lint:ignore SA1006 this is fine
 	fmt.Printf(s)
-}
-
-func Fn2(x *int) {
-	if x == nil {
-		println()
-	}
-	_ = *x
-}
-
-func unused() {
 }
