@@ -1,6 +1,9 @@
 package pkg
 
 import "fmt"
+import . "io"
+
+var _ = io.Reader
 
 func Fn() {
 	s := ""
