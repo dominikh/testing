@@ -3,7 +3,7 @@ package pkg
 import "fmt"
 import . "io"
 
-var _ = io.Reader
+var _ = Reader
 
 func Fn() {
 	s := ""
