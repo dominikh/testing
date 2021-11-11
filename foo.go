@@ -3,7 +3,7 @@ package pkg
 import "fmt"
 import . "io"
 
-var _ = Reader
+var _ Reader = nil
 
 func Fn() {
 	s := ""
